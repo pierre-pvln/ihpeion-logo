@@ -1,0 +1,15 @@
+# git ignore file
+
+###
+#
+# jupyter notebooks
+#
+###
+**/.ipynb_checkpoints
+
+###
+#
+# older version of the code for personal reference
+#
+###
+/code/history
