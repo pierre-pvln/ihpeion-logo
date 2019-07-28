@@ -19,13 +19,6 @@ ECHO ERROR: Unknown settings for COMPUTERNAME: %COMPUTERNAME%
 GOTO :DONE
 
 :Personal_laptop
-IF "%USERNAME%"=="pierre" (
-   echo command: jupyter notebook for %USERNAME% on %COMPUTERNAME%
-   call C:\myPrograms\anaconda3\Scripts\activate.bat
-   call conda activate %conda_environment%
-   call jupyter-notebook
-   GOTO :DONE
-)
 IF "%USERNAME%"=="pierr" (
    echo command: jupyter notebook for %USERNAME% on %COMPUTERNAME%
    call C:\myPrograms\anaconda3\Scripts\activate.bat
